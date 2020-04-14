@@ -55,7 +55,7 @@ class App extends Component{
                      Tweet
                      </a>
                      <button className="button"
-                         id="new-quote">New Quote</button>   
+                         id="new-quote" onClick={this.getNewQuote()}>New Quote</button>   
                   </div>
                 </div>  
               </div>  
